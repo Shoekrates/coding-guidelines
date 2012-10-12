@@ -155,7 +155,7 @@ Werte / Values
 - Immer mit einem Semikolon abschließen
 - Immer doppelte Anführungsstriche statt einfachen benutzen
 - der Wert "0" hat keine Einheit
-- Für Dezimalwerte bitte eine führende 0 benutzen: `0.5em` statt `.5em`
+- Für Dezimalwerte bitte keine führende 0 benutzen: `.5em` statt `0.5em`
 
 Richtige Anwendung:
 
@@ -165,7 +165,7 @@ Richtige Anwendung:
 	}
 	.klasse { /* Korrekte Schreibweise für "0"-Werte */
     	font-family: Georgia, serif;
-    	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5),
+    	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5),
                   0 1px 0 #fff;
 	}
 
